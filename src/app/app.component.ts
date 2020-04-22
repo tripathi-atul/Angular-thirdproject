@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { TestServiceService } from './test-service.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'third-project';
+
+  constructor(svc: TestServiceService) {
+    //let svc = new TestServiceService();
+    console.log("abc");
+    svc.printToConsole('got this service');
+  }
 }
