@@ -1,4 +1,15 @@
+Notes:
+
+command to build only static http and css javascript conetent -- ng build --prod
+command to download http server using node package -- npm install http-server -g
+command to execute build on server --  http-server dist/third-project
+
 # ThirdProject
+
+
+
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.7.
 
